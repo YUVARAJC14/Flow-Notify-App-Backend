@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Delete Account - Flow Notify</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f9fb;
+      color: #222;
+      margin: 0;
+      padding: 20px;
+    }
+    .card {
+      max-width: 800px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 24px 30px;
+      border-radius: 8px;
+      box-shadow: 0 6px 18px rgba(14,35,60,0.08);
+    }
+    h1 {
+      color: #0b5bd7;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    p {
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+    form {
+      margin-top: 20px;
+    }
+    input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    button {
+      background-color: #0b5bd7;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 15px;
+    }
+    button:hover {
+      background-color: #094bb5;
+    }
+    .note {
+      background: #eef6ff;
+      padding: 10px;
+      border-left: 4px solid #0b5bd7;
+      border-radius: 4px;
+      margin-top: 15px;
+      font-size: 14px;
+    }
+    .contact {
+      margin-top: 25px;
+      font-size: 14px;
+    }
+    a {
+      color: #0b5bd7;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Delete Your Account</h1>
+    <p>We’re sorry to see you go. Deleting your account will permanently remove all your data, including tasks, reminders, and insights linked to your profile.</p>
+
+    <div class="note">
+      ⚠️ <strong>Note:</strong> Once deleted, your data cannot be recovered.
+    </div>
+
+    <form action="mailto:yuvarajspartan10@gmail.com" method="post" enctype="text/plain">
+      <label for="email"><strong>Enter your registered email:</strong></label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+      <button type="submit">Request Account Deletion</button>
+    </form>
+
+    <div class="contact">
+      <p>If you face any issues or wish to withdraw your deletion request, contact us at  
+      <a href="mailto:yuvarajspartan10@gmail.com">yuvarajspartan10@gmail.com</a>.</p>
+    </div>
+  </div>
+</body>
+</html>
